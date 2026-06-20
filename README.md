@@ -1,83 +1,126 @@
-🌦️ Weather Islamabad Report API (Python)
+# 🌤️ Weather Islamabad Report API
 
-A Python-based weather data project that fetches real-time weather information for Islamabad and generates analytical reports using Pandas and Matplotlib.
+A Python project that fetches weather information for Islamabad, processes the data using **Pandas**, visualizes it with **Matplotlib**, and manages files and reports using the **OS module**.
 
-This project demonstrates API integration, data processing, and visualization — key skills for backend and data-related roles.
+## 📌 Features
 
-🚀 Features
-📡 Fetch real-time weather data using an external API
-📊 Process and clean data using Pandas
-📈 Generate visual reports using Matplotlib
-📅 Analyze weather trends over time
-💾 Save results locally (graphs / files)
-🧠 Beginner-friendly structure for learning APIs + data analysis
-🛠️ Technologies Used
-Python
-Pandas
-Matplotlib
-Requests
-OS module
-📌 How It Works
-The script sends a request to a weather API
-The API returns data like temperature, humidity, etc.
-Data is cleaned and structured using Pandas
-Graphs are generated using Matplotlib
-Output is saved locally for analysis using os module that is built in python
+* Fetch weather data for Islamabad
+* Process and organize data with Pandas
+* Generate visual reports and charts using Matplotlib
+* Save output files automatically
+* Beginner-friendly Python project
+* Demonstrates API integration and data analysis
 
-Weather APIs typically provide data such as temperature, humidity, wind, and forecasts for different time ranges .
+---
 
-📂 Project Structure
-Weather-Islmbad-report-Api/
-│── main.py
-│── data/
-│── graphs/
-│── README.md
-⚙️ Installation
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Requests
+* OS Module
+
+---
+
+## 📂 Project Structure
+
+```text
+Weather-Islmbad-report-Api-using-pandas-matplotlib-os-
+│
+├── main.py
+├── weather_data.csv
+├── reports/
+├── charts/
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/its-awais/Weather-Islmbad-report-Api-using-pandas-matplotlib-os-.git
+```
+
+Move into the project directory:
+
+```bash
 cd Weather-Islmbad-report-Api-using-pandas-matplotlib-os-
-Before any dependencies you do have 'pip' install on your system
+```
+
 Install dependencies:
-pip install uv
-uv init .
-uv add pandas matplotlib requests
-▶️ Usage
 
-Run the script:
+```bash
+pip install pandas matplotlib requests
+```
 
-uv run ./main.py
+---
 
-After execution:
+## ▶️ Usage
 
-Weather data will be fetched
-Graphs will be generated
-Output will be saved in project folders
-📊 Example Output
-Temperature vs Time
-Humidity vs Time
-Weather trend visualization
-🎯 Learning Objectives
+Run the Python script:
 
-This project helps you learn:
+```bash
+python main.py
+```
 
-API integration in Python
-Data cleaning and manipulation
-Data visualization
-Real-world project structuring
-📌 Future Improvements
-Add FastAPI for backend API
-Add database (PostgreSQL)
-Deploy as a web app
-Add real-time dashboard
-Add multiple city support
-🤝 Contributing
+The program will:
 
-Feel free to fork this repository and improve it.
+1. Retrieve weather information.
+2. Process the data using Pandas.
+3. Create graphs and visual reports.
+4. Save output files automatically.
 
-📜 License
+---
+
+## 📊 Example Output
+
+* Temperature trends
+* Humidity analysis
+* Weather reports
+* Generated charts and graphs
+
+---
+
+## 📚 Learning Objectives
+
+This project demonstrates:
+
+* Working with APIs
+* Data analysis using Pandas
+* Data visualization using Matplotlib
+* File handling with the OS module
+* Building simple automation scripts in Python
+
+---
+
+## 🚀 Future Improvements
+
+* Add support for multiple cities
+* Create a web dashboard using Streamlit
+* Store historical weather data
+* Export reports to Excel or PDF
+* Add real-time weather updates
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome. Feel free to fork the repository and submit pull requests.
+
+---
+
+## 📜 License
 
 This project is open-source and available under the MIT License.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
+
+**Awais**
+
+GitHub: https://github.com/its-awais
